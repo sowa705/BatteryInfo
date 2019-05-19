@@ -33,6 +33,7 @@ namespace BatteryInfo
             catch (Exception)
             {
                 Status = BatteryStatus.Unavailable;
+                return;
             }
             try
             {
